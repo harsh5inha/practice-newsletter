@@ -79,7 +79,7 @@ app.post("/", function(req, res){
     })
   })
   //finally actually send our data that was inputted into our HTML form to mailchimp
-  //request.write(jsonData);
+  request.write(jsonData);
   request.end();
 })
 
