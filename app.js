@@ -61,7 +61,7 @@ app.post("/", function(req, res){
     //mailchimp says we can use the basic HTTP authentication to send or request data, which means using our API key.
     //On the API documentation, we see the requested format of 'anystring:<YOUR_API_KEY>' for authentications, which we have done below. Info found on https://mailchimp.com/developer/guides/marketing-api-conventions/
     //"auth" comes from the HTTPS module's "option's" parameters
-    auth: "harsh:0faf7df70bfe6e3e37996d738f6337b9-us7"
+    auth: "harsh:0faf7df70bfe6e3e37996d738f6337b9-us7" // This key has since been disabled since it was pushed to a public GitHub repo. Shouldn't be too hard to create a new one though if you need to.
   }
   //request to send data through mailchimp API to our mailchimp account
   //using the https module
